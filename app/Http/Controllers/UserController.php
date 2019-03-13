@@ -22,11 +22,9 @@ class UserController extends Controller
        // $users = DB::table('user')->count();
         //$users = DB::table('user')->max('id');
         //$users = DB::table('user')->select('userName')->where('id',   '>=','2')->get();
-        $users = DB::table('user')->select('userName','userPwd as password')->where('id','>=','2')->get();
-        var_dump($users);exit;
+        $users = DB::table('user')->select('userName','userPwd as password')->where('id','=',$id)->get();
         // $ins = DB::insert('insert into user (userName,userPwd) values(?,?)',['chenzhp','123456']);
-        // var_dump($ins);exit;    
-        //return view('User/userinfo', ['user' => $users]);
+        return view('User/userinfo', ['userName' => $users[0]->userName]);
         //return "Dear shanshan!";exit;
     }
 
