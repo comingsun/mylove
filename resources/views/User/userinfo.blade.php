@@ -306,7 +306,7 @@ document.oncontextmenu=stop;
     var offsetX = $("#loveHeart").width() / 2;
     var offsetY = $("#loveHeart").height() / 2 - 55;
     var together = new Date();
-    together.setFullYear(2014, 02, 06);
+    together.setFullYear(2016, 10, 17);
     together.setHours(17);
     together.setMinutes(0);
     together.setSeconds(0);
