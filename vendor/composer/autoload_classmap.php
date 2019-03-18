@@ -562,7 +562,7 @@ return array(
     'Illuminate\\Auth\\Events\\Authenticated' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/Authenticated.php',
     'Illuminate\\Auth\\Events\\Failed' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/Failed.php',
     'Illuminate\\Auth\\Events\\Lockout' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/Lockout.php',
-    'Illuminate\\Auth\\Events\\Login' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/Login.php',
+    'Illuminate\\Auth\\Events\\Login' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/LoginController.phproller.php',
     'Illuminate\\Auth\\Events\\Logout' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/Logout.php',
     'Illuminate\\Auth\\Events\\Registered' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/Registered.php',
     'Illuminate\\Auth\\GenericUser' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/GenericUser.php',

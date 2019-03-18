@@ -16,4 +16,20 @@ class Request extends Facade
     {
         return 'request';
     }
+
+    /**
+     * 处理一次请求。
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
+    protected static function handle($request, Closure $next)
+    {
+        if ($request->route()->named('profile')) {
+            //
+        }
+
+        return $next($request);
+    }
 }

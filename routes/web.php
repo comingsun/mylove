@@ -19,14 +19,8 @@ Route::get('foo',function(){
     return "Hello World";
 });
 
-// Route::any('find',function(){
-//    // return "This is a good World";
-//     return view('welcome');
-// });
+Route::get('/user/login','UserController@login');
 
-Route::get('/user/{id}','UserController@show')
-->where('id','[0-9]+');
-// Route::get('user/{id}',[
-//     'uses'=>'UserController@show',
-//     'as'=>'userinfo/{id}'
-//    ]);
+Route::post('/Login/doLogin','LoginController@doLogin');
+
+Route::get('/user/index','UserController@show');

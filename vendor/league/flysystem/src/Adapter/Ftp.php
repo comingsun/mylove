@@ -161,7 +161,7 @@ class Ftp extends AbstractFtpAdapter
     }
 
     /**
-     * Login.
+     * LoginController.
      *
      * @throws RuntimeException
      */
