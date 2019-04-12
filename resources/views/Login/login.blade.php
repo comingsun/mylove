@@ -32,7 +32,7 @@
     </div>
     <div class="clear"> </div>
     <div class="avtar">
-        <img src="images/avtar.png" />
+        <img src="images/logo.jpg" />
     </div>
     <form action="{{action('LoginController@doLogin')}}" method="post">
         <input type="text" class="text" name="Username" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" >

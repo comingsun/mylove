@@ -23,4 +23,7 @@ Route::get('/user/login','UserController@login');
 
 Route::post('/Login/doLogin','LoginController@doLogin');
 
+Route::get('/Login/testUrl','LoginController@testUrl');
+
 Route::get('/user/index','UserController@show');
+
