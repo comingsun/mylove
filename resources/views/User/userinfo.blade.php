@@ -178,7 +178,7 @@ document.oncontextmenu=stop;
                         <span class="back"><img src="images/nav1.png" alt="" usemap="#back"><a href="javascript:history.go(-1)">返回</a></span>
                         <div class="pad">
                             <h2>爱的宣誓</h2>
-                            人物：珊珊 &amp; 宝贝<br />
+                            人物：鹏 &amp; 宝贝<br />
                             不在乎曾经拥有，只在乎天长地久。<br />
                             爱，就要说出来！<br />
                             再美好的回忆，也只是回忆；<br />
@@ -192,10 +192,10 @@ document.oncontextmenu=stop;
                             <h2>恋爱历程</h2>
                             <div class="relative">
                                 <div class="scroll">
-                                    <span>人物：珊珊 &amp; 宝贝</span>
+                                    <span>人物：鹏 &amp; 宝贝</span>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;宝贝你还记得么？</p>
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;XX年X月X日。</p>
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;我们在xx相遇。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;2016年10月17日。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;我们在北京相遇。</p>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;然后.........</p>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;过程.........</p>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;我爱你，我会一直陪在你身边</p>
@@ -270,7 +270,7 @@ document.oncontextmenu=stop;
                                 <img src="images/1.gif" />　　　　<img src="images/2.gif" /><br/><br/>
                                 <div id="loveu">
                                     爱：从2016-10-17开始！<br/>
-                                    <div class="signature" style="float: right; margin-right: 50px;">by 珊珊 </div>
+                                    <div class="signature" style="float: right; margin-right: 50px;">by 鹏 </div>
                                 </div>
                             </div>
                         </div>
